@@ -1,0 +1,51 @@
+<html>
+
+<head>
+<meta charset="utf-8">
+	<title>CCCamp首頁</title>
+	<SCRIPT Language="JavaScript">
+		for(var i = 0; i < images.length; i++){
+		var image = images[i], width = String(image.currentStyle.width); 
+		if(width.indexOf('%') == -1){
+		continue; 
+		} 
+		image.origWidth = image.offsetWidth; 
+		image.origHeight = image.offsetHeight; 
+		imgCache.push(image); 
+		c.ieAlpha(image); 
+		image.style.width = width; 
+	}
+
+	</SCRIPT>
+</head>
+
+<body>
+
+	<style type="text/css">
+
+		body{
+			background-image: url(conceret.jpg);
+			background-size: 100%;
+		}		
+
+	</style>
+
+	<font face="微軟正黑體">
+	
+		<IMG SRC="商標.png" width="50%" border="0" vspace="50" hspace="400"/><br>
+	
+
+	<a href="test.html">
+		<IMG SRC="woodbutton2.png" width="35%" border="0" vspace="150" hspace="470"/><br>
+
+
+	</a>
+
+
+
+
+
+	<font>
+</body>
+
+</html>
